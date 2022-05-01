@@ -1,0 +1,44 @@
+
+/***** COLORES ******/
+$color1: pink;
+$color2:lightblue;
+$color3:blue;
+$color4:black;
+
+
+/**** ALTURA height ****/
+$altura1: 450px;    /*altura galeria*/
+$altura2: 300px;  /*altura cuadro*/
+
+
+/*** ANCHO  width *****/
+$ancho1: 300px; 
+
+
+/*** OVERFLOW ***/
+$overflow1: hidden;
+
+
+/*** TRANSICION ****/
+$transicion1: all 1.5s;
+$transicion2: all 1s;
+
+
+/*** TRANSFORM  ****/
+$transforma1: scale(1.5);
+$transforma2: scale(1.1);
+$transforma3: scale(1.5) rotate(30deg);
+$transforma4: translateX(-300px);
+$transforma5: scale(1.1) translateX(0px);
+$transforma6: scale(0.5);
+
+
+/*** FILTRO  *****/
+$filtro1: brightness(50%);
+$filtro2: brigthness(100%);
+$filtro3: greyscale(100%);
+$filtro4: greyscale(0%);
+
+
+
+

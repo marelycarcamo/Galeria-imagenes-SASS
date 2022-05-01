@@ -1,0 +1,207 @@
+/***** COLORES ******/
+/**** ALTURA ****/
+/*altura galeria*/
+/*altura cuadro*/
+/*** ANCHO *****/
+/*** OVERFLOW ***/
+/*** TRANSICION ****/
+/*** TRANSFORM  ****/
+/*** FILTRO  *****/
+body {
+  background-color: green;
+}
+
+body .galeria {
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /**** PANDA *****/
+  /**** HIPOPOTAMO ****/
+  /*** LOBO ****/
+  /*** ARDILLA  ***/
+  /**** TIGRE ******/
+  /***** SIMIO ****/
+}
+
+body .galeria div {
+  border: 20px solid transparent;
+  -o-border-image: linear-gradient(to bottom right, white 0%, grey 100%);
+     border-image: -webkit-gradient(linear, left top, right bottom, from(white), to(grey));
+     border-image: linear-gradient(to bottom right, white 0%, grey 100%);
+  border-image-slice: 1;
+}
+
+body .galeria .zoom1 {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+body .galeria .zoom1:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body .galeria .zoom1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 1px 1px 3px 1px black;
+          box-shadow: 1px 1px 3px 1px black;
+}
+
+body .galeria .zoom1 Img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom2 {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom2 Img {
+  width: 450px;
+  height: 300px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom2:hover img {
+  -webkit-transform: scale(1.5) rotate(30deg);
+          transform: scale(1.5) rotate(30deg);
+}
+
+body .galeria .zoom2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .galeria .zoom3 {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom3 Img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+body .galeria .zoom3:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+body .galeria .zoom3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .galeria .zoom4 {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom4 Img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .galeria .zoom4:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+body .galeria .zoom4:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .galeria .zoom5 {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom5 Img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(-300px);
+          transform: translateX(-300px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom5:hover img {
+  -webkit-transform: scale(1.1) translateX(0px);
+          transform: scale(1.1) translateX(0px);
+}
+
+body .galeria .zoom5:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .galeria .zoom6 {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .galeria .zoom6 Img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+body .galeria .zoom6:hover img {
+  border-radius: 50%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+body .galeria .zoom6:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=estiloGaleriaImagenes.css.map */

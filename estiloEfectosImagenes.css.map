@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,OAAO,EAAC,IAAI;EACZ,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;CAE1B;;AAED,AAAA,QAAQ,CAAC,GAAG,CAAA;EACR,UAAU,EAAE,6CAA6C;CAE5D;;AAED,AAAA,QAAQ,CAAC,UAAW,CAAA,CAAC,EAAC;EAClB,QAAQ,EAAC,MAAM;CAClB;;AAED,AAAA,QAAQ,CAAC,UAAW,CAAA,CAAC,CAAC,MAAM,CAAA;EACxB,SAAS,EAAE,UAAU;CACxB",
+    "sources": [
+        "../estiloEfectosImagenes.scss"
+    ],
+    "names": [],
+    "file": "estiloEfectosImagenes.css"
+}

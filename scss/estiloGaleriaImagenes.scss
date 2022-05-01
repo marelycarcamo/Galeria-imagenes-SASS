@@ -1,0 +1,192 @@
+@import "variables";
+
+body{
+    background-color: $color1;
+    
+    .galeria{
+        height: $altura1;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+    
+        div{
+            border: 20px solid transparent ;
+            -moz-border-image: -moz-linear-gradient(top left, $color2 0%, $color3 100%);
+            -webkit-border-image: -webkit-linear-gradient(top left, $color2 0%,$color3 100%);
+            border-image: linear-gradient(to bottom right, $color2 0%, $color3 100%);
+            border-image-slice: 1;
+        }
+    
+        /**** PANDA *****/
+        .zoom1{   
+            height: $altura2;
+            width: 300px;
+            overflow: hidden;
+            transition: $transicion1;
+    
+            &:hover img{
+                transform: $transforma1;
+            }
+    
+            &:hover{
+                transform: $transforma2;
+                box-shadow: 1px 1px 3px 1px $color4;
+            }
+    
+            Img{
+                width: 300px;
+                height: $altura2;
+                transition: $transicion2;
+            }
+
+        }
+
+        /**** HIPOPOTAMO ****/
+
+        
+        .zoom2{
+            height: $altura2;
+            width: 300px;
+            overflow: hidden;
+            transition: $transicion2;
+              
+            Img{
+                width: $altura1;
+                height: 300px;
+                transition: $transicion2;
+              
+            }
+              
+            &:hover img{
+                transform: scale(1.5) rotate(30deg);
+            }
+              
+            &:hover{
+                transform:scale(1.1);
+            }
+        }
+
+        /*** LOBO ****/
+
+        .zoom3{
+            height: $altura2;
+            width: 300px;
+            overflow: hidden;
+            transition: all 1s;
+
+            Img{
+                width: 300px;
+                height: $altura2;
+                transition: all 1s;
+                filter: brightness(50%);
+            }
+
+            &:hover img{
+                transform: scale(1.5);
+                filter: brightness(100%);
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            }
+          }
+        
+         
+          /*** ARDILLA  ***/
+
+          
+        .zoom4{
+            height: $altura2;
+            width: 300px;
+            overflow: hidden;
+            transition: all 1s;
+
+            Img{
+                width: 300px;
+                height: $altura2;
+                transition: all 1s;
+                filter: grayscale(100%);
+            }
+
+            &:hover img{
+                transform: scale(1.5);
+                filter:grayscale(0%)
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        
+        }
+    
+         /**** TIGRE ******/
+
+        .zoom5{
+            height: $altura2;
+            width: 300px;
+            overflow: hidden;
+            transition: all 1s;
+
+            Img{
+                justify-content:center;
+                align-items:center;
+                transform:translateX(-300px);
+                transition: all 1s;
+            }
+    
+            &:hover img{
+                transform: scale(1.1) translateX(0px);
+            }
+    
+            &:hover{
+              transform: scale(1.1);
+            }
+
+        }
+
+
+        /***** SIMIO ****/
+        .zoom6{
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            transition: all 1s;
+
+            Img{
+                width: 300px;
+                height: 300px;
+                transition: all 1.5s;
+            }
+
+            &:hover img{
+                border-radius: 50%;
+                transform: scale(0.5);
+            }
+
+            &:hover{
+                transform:scale(1.1);
+            }
+    
+        }
+
+    }
+
+}
+        
+    
+    
+    
+    
+       
+    
+    
+
+
+
+
+
+
+
+
+

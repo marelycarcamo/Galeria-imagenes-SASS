@@ -1,0 +1,171 @@
+body{
+  background:green;
+}
+
+.galeria div{
+  border: 20px solid transparent ;
+  -moz-border-image: -moz-linear-gradient(top left, white 0%,grey 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, white 0%,grey 100%);
+  border-image: linear-gradient(to bottom right, white 0%, grey 100%);
+  border-image-slice: 1;
+}
+
+
+.galeria{
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+
+.zoom1{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  transition: all 1.5s;
+}
+
+.zoomImg1{
+  width: 300px;
+  height: 300px;
+  transition: all 1s;
+
+}
+
+.zoom1:hover img{
+transform: scale(1.5);
+}
+
+.zoom1:hover{
+  transform:scale(1.1);
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+.zoom2{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.zoomImg2{
+  width: 300px;
+  height: 300px;
+  transition: all 1s;
+
+}
+
+.zoom2:hover img{
+  transform: scale(1.5) rotate(30deg);
+
+  }
+
+  .zoom2:hover{
+    transform:scale(1.1);
+  }
+
+  .zoom3{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    transition: all 1s;
+  }
+
+  .zoomImg3{
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+    filter: brightness(50%);
+  
+  }
+  
+  .zoom3:hover img{
+    transform: scale(1.5);
+    filter: brightness(100%);
+    }
+
+    .zoom3:hover{
+      transform: scale(1.1);
+    }
+
+
+    .zoom4{
+      height: 300px;
+      width: 300px;
+      overflow: hidden;
+      transition: all 1s;
+   
+    }
+
+    .zoomImg4{
+      width: 300px;
+      height: 300px;
+      transition: all 1s;
+      filter: grayscale(100%);
+    
+    }
+    
+    .zoom4:hover img{
+      transform: scale(1.5);
+      filter:grayscale(0%)
+      }
+
+      .zoom4:hover{
+        transform: scale(1.1);
+      }
+
+      .zoom5{
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+        transition: all 1s;
+      }
+
+      .zoomImg5{
+        justify-content:center;
+        align-items:center;
+        transform:translateX(-300px);
+        transition: all 1s;
+      
+      }
+
+      .zoom5:hover img{
+        transform: scale(1.1) translateX(0px);
+        
+        }
+
+        .zoom5:hover{
+          transform: scale(1.1);
+        }
+
+      .zoom6{
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+        transition: all 1s;
+
+      }
+
+     
+      
+      .zoomImg6{
+        width: 300px;
+        height: 300px;
+        transition: all 1.5s;
+      
+      }
+      .zoom6:hover img{
+   
+        border-radius: 50%;
+        transform: scale(0.5);
+       
+        }
+
+      .zoom6:hover{
+        transform:scale(1.1);
+      }
+
+
+
