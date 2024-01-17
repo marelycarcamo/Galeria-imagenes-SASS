@@ -20,6 +20,5 @@ Las imágenes dentro de los elementos div tienen varias transformaciones aplicad
 
 RESUMEN
 
-En resumen, este programa es una hoja de estilo CSS que crea una galería de imágenes interactiva con varios efectos visuales interesantes. 😊
+En resumen, este programa es una manera sencilla y efectiva de mostrar una galería de imágenes en una página web, usa una hoja de estilo CSS que crea una galería de imágenes interactiva con varios efectos visuales interesantes. 😊
 
-En resumen, este programa es una manera sencilla y efectiva de mostrar una galería de imágenes en una página web. 😊
